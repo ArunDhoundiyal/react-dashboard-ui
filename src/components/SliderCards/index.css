@@ -1,0 +1,29 @@
+.slider-card-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 200px;
+  margin: 12px;
+  background-color: #ffffff;
+  border: solid 1px lightgrey;
+}
+
+.image-size {
+  height: 200px;
+  width: 100%;
+}
+.slider-content-style {
+  border: solid 1px lightgrey;
+  padding: 8px;
+}
+.slider-heading {
+  font-size: 15px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 15px;
+}
+.description-slider {
+  font-family: roboto;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 13px;
+  color: dimgray;
+}

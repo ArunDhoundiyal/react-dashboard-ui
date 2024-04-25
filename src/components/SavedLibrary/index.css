@@ -1,0 +1,25 @@
+.library-container {
+  height: 200px;
+  width: 250px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 12px;
+}
+.note-icon {
+  font-size: 30px;
+}
+.title-heading {
+  color: #080808;
+  font-size: 20px;
+  font-family: "Gill Sans", sans-serif;
+}
+.date-content {
+  color: #808080;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 300;
+}

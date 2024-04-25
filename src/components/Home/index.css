@@ -1,0 +1,126 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  min-height: 100v;
+}
+
+.home-bg-container {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-color: #fafafa;
+  width: 100%;
+}
+
+.Header {
+  background-color: #000039;
+  width: 100%;
+  height: 150px;
+  font-family: "Gill Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.slider-logo {
+  color: #ffffff;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.library-bg-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 95px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.slider-bg-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid;
+  max-width: 100px;
+}
+.slider-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+.slider-container-direction {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  height: 450px;
+  width: 900px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 12px;
+  background-size: cover;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #add8e6;
+  margin: 15px;
+}
+
+.button-container {
+  align-self: center;
+  margin-top: 35px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-button {
+  background-color: #000039;
+  height: 45px;
+  width: 100px;
+  border-radius: 6px;
+  color: white;
+}
+
+.recentRelease-container {
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+.top-recent-release-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.heading-recent-release {
+  color: #1e90ff;
+  font-size: 22px;
+}
+
+.select-country {
+  height: 50px;
+  width: 150px;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.country-style {
+  font-weight: bold;
+}
+.icon-container {
+  width: 0px;
+  height: 0px;
+  margin-left: 9px;
+  margin-top: 15px;
+}
