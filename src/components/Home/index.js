@@ -67,7 +67,7 @@ class Home extends React.Component {
             </div>
             <div className="recentRelease-container">
               <div className="top-recent-release-container">
-                <h1 className="heading-recent-release">Recent Releases</h1>
+               
                 <select className="select-country">
                   <option className="country-style">India</option>
                   <option className="country-style">Japan</option>
